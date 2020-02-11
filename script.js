@@ -19,7 +19,7 @@ $("#search-button").on("click", function () {
             <p>Wind Speed: ${response.list[0].wind.speed} mph </p>
           </div>`
             $("#today").append(jumbotron);
-            $("#forecast").append(row);
+            // $("#forecast").append(row);
 
             let i = 0;
             for (let i = 0; i < 40; i += 10) {
